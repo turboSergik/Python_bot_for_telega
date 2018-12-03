@@ -17,8 +17,8 @@ import time
 url_test = 'https://test.bop.rest/api/feed/'
 
 token = "752741562:AAHi0Zjl4hKp1ib3kMyrMP-ljH32HRTF5gU"
-url = "https://api.telegram.org/bot752741562:AAHi0Zjl4hKp1ib3kMyrMP-ljH32HRTF5gU/".format(token)
-
+#url = "https://api.telegram.org/bot752741562:AAHi0Zjl4hKp1ib3kMyrMP-ljH32HRTF5gU/".format(token)
+url = "https://api.telegram.org/bot" + token + '/'
 
 method_getUpd = 'getUpdates'
 param_getUpd = {'limit' : 1, 'offset' : -1}
@@ -109,6 +109,7 @@ while 1:
 
 
 	time.sleep(4)
+
 
 
 
