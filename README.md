@@ -1,1 +1,1 @@
-# Python_bot_for_telega
+# Python bot for telegramm
